@@ -37,7 +37,7 @@ Add a dependency to your existing configuration of the `asciidoctor-maven-plugin
 
 Post-processes Asciidoctor's HTML output to collapse multiple code blocks into one and provides
 tabs that can be used to switch between them. Requires one block that has a `role="primary"`
-attribute and one more blocks that have a `role="secondary"` attribute. The tabs are named using
+attribute and one or more blocks that have a `role="secondary"` attribute. The tabs are named using
 the block titles.
 
 For example:
